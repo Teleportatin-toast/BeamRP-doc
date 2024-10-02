@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, noarchive">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <style>
+    :root {
+        font-family: Inter, sans-serif;
+        font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+    }
+    @supports (font-variation-settings: normal) {
+        :root { font-family: InterVariable, sans-serif; }
+    }
+    body {
+        background-color: #1e1f23;
+        color: #FFFFFF
+    }
+    h1 {
+        font-size: 50pt;
+        font-weight: 700
+    }
+    h2 {
+        font-weight: 500;
+        font-size: 3rem;
+    }
+    h3 {
+        font-weight: 400;
+        font-size: 20pt;
+    }
+    .titlediv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 7rem;
+    }
+    .title {
+        display: inline-block;
+        text-align: center;
+        background-color: #f0f5ff;
+        font-weight: 600;
+        color: #4800ac;
+        border-radius: 0.5rem;
+        padding: 0.2rem 0.5rem;
+    }
+    .subtext {
+        display: block;
+        font-size: 0.8rem;
+        color: #4d4d4d;
+        margin-top: -0.2rem;
+    }
+    .toc li > a{
+        margin-bottom: 1rem;
+        text-decoration: none;
+    }
+    .content code {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    }
+    .content {
+        padding: 0.3rem 1rem 0.3rem;
+        margin-top: 1rem;
+        border-radius: 0.5rem;
+        border: 2px #4d02b586 solid;
+        background-color: rgba(255, 255, 255, 0.1);
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+        transition: 0.3s ease;
+        margin-right: 0%;
+    }
+    .content:hover {
+        box-shadow: 0 0 1rem #4d02b586;
+    }
+    .area {
+        border: 1px dashed #FAFAFA;
+        padding: 0.5rem;
+        margin: 1rem;
+        border-radius: 0.5rem;
+        box-shadow: 0px 0px 8px #595c64;
+    }
+    .code-container {
+        padding: 0.3rem 1rem 0.3rem;
+        margin-top: 1rem;
+        border-radius: 0.5rem;
+        border: 2px #4d02b586 solid;
+        background-color: rgba(255, 255, 255, 0.1);
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+        transition: 0.3s ease;
+    }
+    .code-container:hover {
+        box-shadow: 0 0 1rem #4d02b586;
+    }
+    .code {
+        display: flex;
+        justify-content: space-between;   
+    }
+    .text-row {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .code hr {
+        flex-grow: 0.9;
+        border-bottom: 2px dotted #4d4d4d;
+        border-top: 1px solid #ffffff00;
+        border-left: 0px;
+        border-right: 0px;
+    }
+    .sectionnumber {
+        font-weight: 400;
+        color: #4d4d4d;
+    }
+    .sectiontitle {
+        font-weight: 600;
+        text-align: center;
+        font-size: 50pt;
+        line-height: 0.7;
+    }
+    .command {
+        color: #FAFAFA;
+        background-color: #383a40;
+        padding: 4px;
+        line-height: 1.5;
+        border-radius: 0.3rem
+    }
+    </style>
+    <script async src="script.js"></script>
+</head>
+<body>
+    <div class="titlediv"><h1 class="title">BeamRP Guide <span class="subtext">"Just read the docs"</span></div>
+    <hr>
+    <div class="content">
+        <h3 style="margin:0.5rem">Table of contents</h3>
+            <ol class="toc" role="list">
+                <li>
+                    <a href="#1">Intro to BeamRP</a><br>
+                </li>
+                <li>
+                    <a href="#2">Getting Started</a>
+                        <ul>
+                            <li><a href="#2.1">Bot commands</a><br>
+                        </ul>
+            </ol>
+    </div>
+
+<h2 id="1">
+    <span class="sectionnumber">Section 1</span>
+    <br><span class="sectiontitle">Intro to BeamRP</span>
+</h2>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nisl urna, maximus sed consequat sit amet, vestibulum in est. Suspendisse ac cursus risus. Proin tincidunt faucibus placerat. Proin condimentum hendrerit urna, eu vulputate erat congue vitae. Suspendisse condimentum massa eget nisi imperdiet bibendum. Aliquam erat volutpat. Pellentesque rutrum, nibh eget tincidunt varius, lorem sapien pellentesque enim, id ullamcorper nulla neque vel urna. Duis eu justo nec lacus congue blandit pulvinar ac magna. Nulla a ullamcorper lorem.
+<br><br>
+        Praesent lorem dolor, varius tincidunt elementum sit amet, molestie dictum purus. Sed semper tempor mauris, quis hendrerit augue placerat et. Proin massa elit, posuere in rutrum id, rutrum id dolor. Pellentesque in urna vel nunc porttitor convallis sit amet sed nulla. In hac habitasse platea dictumst. Nulla vitae tellus quis nulla placerat rutrum ac sit amet odio. Pellentesque id porta tellus. Integer rutrum gravida vulputate. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla ullamcorper ligula quis nisl tempus, id aliquam elit ultricies. Integer ut urna non velit fermentum pretium in vel odio. Vivamus vel eros ut felis fringilla elementum. Donec non nibh lorem.
+<br><br>
+        Curabitur pellentesque tempus tellus, congue fermentum leo venenatis at. Maecenas mattis, leo et varius sodales, ante magna blandit lectus, vel malesuada orci elit et ante. Nam arcu nibh, vehicula eget accumsan vitae, pharetra at augue. Fusce sit amet quam at risus cursus tristique. Phasellus sed turpis fringilla, varius nulla et, ornare magna. Ut dignissim velit consectetur, rutrum nulla scelerisque, fermentum ligula. Vivamus ac dictum dui. Maecenas vitae placerat urna. Suspendisse tempus magna sapien, vel fringilla justo bibendum sit amet. Suspendisse nec arcu nulla. Suspendisse interdum lacus orci, lobortis efficitur ipsum pulvinar euismod.
+<br><br>
+        Donec in risus vestibulum, suscipit diam ut, luctus sapien. Nunc vel arcu quis metus tincidunt viverra id vitae purus. Fusce sodales finibus nisl in dignissim. Vestibulum nec purus porta ante tincidunt ullamcorper. Mauris dignissim lorem nulla, ut congue elit condimentum sed. Donec at sodales lacus. Vivamus suscipit semper orci in laoreet. Maecenas vitae posuere nulla, sit amet pulvinar justo. Sed eu accumsan purus, sed congue ipsum. Etiam tincidunt est vel leo pulvinar pellentesque sed vel eros. Vestibulum hendrerit nulla at dui consequat feugiat. Donec hendrerit, leo eu aliquet luctus, eros neque dapibus eros, id luctus ipsum dolor non ligula. Aliquam at risus quis eros interdum hendrerit non hendrerits.</p>
+
+<h2 id="2">
+    <span class="sectionnumber">Section 2</span><br>
+    <span class="sectiontitle">Getting Started</span>
+</h2>
+
+    <div class="area"><h2 id="2.1" style="text-align: center; margin: 10px;">Bot commands</h2>
+
+            <p>BeamRP uses a Discord bot for commands, the following are the commands you can use in <a href="https://discord.com/channels/1263192555252613200/1268633739995381790">#bot-commands</a></p><br>
+
+        <span style="color:#852ffd; font-size:20pt; margin-left: 20px">/initialize</span><br>
+            <p>Used for creating a new character</p>
+        <h3>Arguments:</h3>
+            None
+        <h3>Examples:</h3>
+            <div class="content">
+                <div class="code">
+                    <code>/initialize</code>
+                    <hr>
+                    <span style="text-align:right">Removes all your money and resets your drivers license</span>
+                </div>
+            </div><br>
+              
+    <span style="color:#852ffd; font-size:20pt; margin-left: 20px">/status</span><br>
+            <p>Displays your character’s stats, such as money and whether you have a driver's license</p>
+        <h3>Arguments:</h3>
+            <code>User</code>: See the status of another user's character
+        <h3>Examples:</h3>
+            <div class="content">
+                <div class="code">
+                    <span><code>/status</code></span>
+                    <hr>
+                    <span style="text-align:right">Returns your balance, whether you have a license, and if you are blacklisted</span>
+                </div><br>
+                <div class="code">
+                    <code>/status @itsaname</code>
+                    <hr>
+                    <span style="text-align:right">Returns the balance, license status, and blacklist status, of @itsaname</span>
+                </div>
+            </div><br>
+
+    <span style="color:#852ffd; font-size:20pt; margin-left: 20px">/delmoney</span><br>
+            <p>Removes money from your character, used for purchases</p>
+        <h3>Arguments:</h3>
+            <code>Amount</code>: The amount of money to remove<br><br>
+            <code>Reason</code>: The reason to remove money<br>
+        <h3>Examples:</h3>
+            <div class="content">
+                <div class="code">
+                    <code>/delmoney 6000 Bought ETK K-Series KC4 (M)</code>
+                    <hr>
+                    <span style="text-align:right">Removes 6000, lets the bot know you spent your money on buying an ETK</span>
+                </div><br>
+                <div class="code">
+                    <code>/delmoney 15000 Paying fines</code>
+                    <hr>
+                    <span style="text-align:right">Removes the money you spent on paying fines</span>
+                </div><br>
+                <div class="code">
+                    <code>/delmoney 700 Paid @itsaname</code>
+                    <hr>
+                    <span style="text-align:right">Removes the money you paid @itsaname (Doesn't automatically pay them)</span>
+                </div>
+            </div><br>
+
+    <span style="color:#852ffd; font-size:20pt; margin-left: 20px">/addmoney</span><br>
+            <p>Gives your character money</p>
+        <h3>Arguments:</h3>
+            <code>Amount</code>: The amount of money to add<br><br>
+            <code>Reason</code>: The reason to add money<br>
+        <h3>Examples:</h3>
+            <div class="content">
+                <div class="code">
+                    <code>/addmoney 200 Two deliveries</code>
+                    <hr>
+                    <span style="text-align:right">Gives you $100 for doing two level 1 deliveries</span>
+                </div><br>
+                <div class="code">
+                    <code>/addmoney 700 Got paid by @gitty</code>
+                    <hr>
+                    <span style="text-align:right">Adds money that you were given by @gitty</span>
+                </div>
+            </div><br>
+    </div>
+</body>
+</html>
