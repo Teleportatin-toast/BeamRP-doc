@@ -141,6 +141,8 @@ hr {
     overflow: hidden;
     aspect-ratio: 1 / 1;
     width: 17rem;
+    height: 17rem;
+    flex-direction: column;
 }
 .jobbox h1 {
     background: #403c46c7;
@@ -155,6 +157,9 @@ hr {
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .jobbox img {
     object-fit: cover;
