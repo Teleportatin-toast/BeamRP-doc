@@ -49,20 +49,16 @@ hr {
 .titlediv {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: auto;
     margin-bottom: -30px;
     margin-top: -30px;
 }
 .title {
-    display: inline-block;
     text-align: center;
     background-color: #f0f5ff;
     font-weight: 600;
     color: #4800ac;
     border-radius: 0.5rem;
     padding: 0.2rem 0.5rem;
-    overflow-y: auto;
 }
 .subtext {
     display: block;
@@ -71,18 +67,11 @@ hr {
     margin-top: -0.2rem;
 }
 .toc li > a{
-    margin-bottom: 1rem;
     text-decoration: none;
     color: #852ffd;
-    transition: color 0.3s ease;
 }
 .toc li > a:hover {
     color: #d977ff;
-}
-.content code {
-    position: relative;
-    overflow: hidden;
-    display: flex;
 }
 .content {
     padding: var(--spacing);
@@ -90,7 +79,6 @@ hr {
     border-radius: 0.5rem;
     border: 2px #4d02b586 solid;
     background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
     transition: 0.3s ease;
     overflow-x: auto;
 }
@@ -108,7 +96,6 @@ hr {
     display: flex;
     min-width: 37rem;
     overflow: auto;
-    justify-content: space-between;
 }
 .text-row {
     display: flex;
@@ -119,8 +106,6 @@ hr {
     flex-grow: 0.9;
     border-bottom: 2px dotted #4d4d4d;
     border-top: 1px solid #ffffff00;
-    border-left: 0px;
-    border-right: 0px;
 }
 .sectionnumber {
     font-weight: 400;
@@ -128,7 +113,6 @@ hr {
 }
 .sectiontitle {
     font-weight: 600;
-    text-align: center;
     font-size: 50pt;
     line-height: 0.7;
 }
@@ -141,17 +125,13 @@ hr {
 }
 .jobselection {
     display: flex;
-    justify-content: flex-start;
-    overflow-x: auto;
-    margin-left: auto;
+    flex-wrap: wrap;
 }
 .jobbox {
     position: relative;
     display: inline-flex;
-    max-width: 35vh;
-    aspect-ratio: 1 / 1;
     border-radius: .5rem;
-    margin: 0 auto 0 1rem;
+    margin: 0 auto 0.2rem auto;
     overflow: hidden;
 }
 .jobbox h1 {
@@ -169,11 +149,10 @@ hr {
     z-index: 1;
 }
 .jobbox img {
-    width: 34vh;
+    width: 17rem;
     object-fit: cover;
     transition: all 0.3s ease;
 }
 .jobbox:hover img {
     transform: scale(1.1)
 }
-
