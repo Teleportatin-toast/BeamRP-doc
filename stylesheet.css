@@ -148,7 +148,6 @@ hr {
     width: 100%;
     border-radius: 0.5rem;
     position: absolute;
-    top: -60%;
     left: 50%;
     transform: translateX(-50%);
     margin: 0;
@@ -157,10 +156,6 @@ hr {
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     z-index: 1;
-    transition: all 0.3s ease;
-}
-.jobbox:hover h1 {
-    top:0;
 }
 .jobbox img {
     width: 34vh;
