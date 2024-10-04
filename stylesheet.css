@@ -131,6 +131,8 @@ hr {
 }
 .jobbox {
     position: relative;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     border-radius: .5rem;
     margin: 0.2rem;
