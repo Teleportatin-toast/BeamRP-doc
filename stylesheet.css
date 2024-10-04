@@ -39,7 +39,9 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 7rem;
+    height: auto;
+    margin-bottom: -30px;
+    margin-top: -30px;
 }
 .title {
     display: inline-block;
@@ -49,7 +51,6 @@ hr {
     color: #4800ac;
     border-radius: 0.5rem;
     padding: 0.2rem 0.5rem;
-    max-height: 6rem;
     overflow-y: auto;
 }
 .subtext {
@@ -80,9 +81,7 @@ display: flex;
     background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
     transition: 0.3s ease;
-}
-.content:hover {
-    box-shadow: 0 0 1rem #4d02b586;
+    overflow-x: auto;
 }
 .area {
     border: 1px dashed #FAFAFA;
@@ -93,7 +92,9 @@ display: flex;
 }
 .code {
     display: flex;
-    justify-content: space-between;   
+    min-width: 37rem;
+    overflow: auto;
+    justify-content: space-between;
 }
 .text-row {
     display: flex;
