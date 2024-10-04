@@ -1,4 +1,4 @@
-$(window).load(function() {
+$(document).ready(function() {
     $(".se-pre-con").fadeOut("slow");;
 });
 setTimeout(function() {
