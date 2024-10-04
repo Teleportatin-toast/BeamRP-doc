@@ -1,3 +1,6 @@
 setTimeout(function() {
-    $(".se-pre-con").fadeOut("slow");
-}, 1000);
+    var preCon = document.querySelector('.se-pre-con');
+    if (preCon) {
+        preCon.remove();
+    }
+}, 400);
