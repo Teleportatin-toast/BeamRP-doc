@@ -1,10 +1,93 @@
 .jobtitle {
     text-align: center;
     position: absolute;
-    left: 22.3vw;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
     top: -11vw;
     text-shadow: 10px 10px 14px rgba(0, 0, 0, 0.8);
     font-size: 14.6vw;
+}
+.jobtitlelong {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: -6vw;
+    text-shadow: 10px 10px 14px rgba(0, 0, 0, 0.8);
+    font-size: 18.5vh;
+    text-wrap: nowrap;
+}
+
+
+.criimg {
+    position: absolute;
+    background: url(images/highQuality/Crime.png) no-repeat center;
+    height: 40vh;
+    width: 100%;
+    box-shadow: inset 0 -160px 55px -30px #0e0f11;
+    top: 0;
+    left: 0;
+    background-position: 50% 0%;
+    background-size: 100%;
+}
+.truimg {
+    position: absolute;
+    background: url(images/highQuality/Trucking.png) no-repeat center;
+    height: 40vh;
+    width: 100%;
+    box-shadow: inset 0 -160px 55px -30px #0e0f11;
+    top: 0;
+    left: 0;
+    background-position: 50% 0%;
+    background-size: 100%;
+}
+.taximg {
+    position: absolute;
+    background: url(images/highQuality/Taxi.png) no-repeat center;
+    height: 40vh;
+    width: 100%;
+    box-shadow: inset 0 -160px 55px -30px #0e0f11;
+    top: 0;
+    left: 0;
+    background-position: 50% 0%;
+    background-size: 100%;
+}
+.emeimg {
+    position: absolute;
+    background: url(images/highQuality/Emergency.png) no-repeat center;
+    height: 40vh;
+    width: 100%;
+    box-shadow: inset 0 -160px 55px -30px #0e0f11;
+    top: 0;
+    left: 0;
+    background-position: 50% 0%;
+    background-size: 100%;
+}
+.boximg {
+    position: absolute;
+    background: url(images/highQuality/Boxtruck.png) no-repeat center;
+    height: 40vh;
+    width: 100%;
+    box-shadow: inset 0 -160px 55px -30px #0e0f11;
+    top: 0;
+    left: 0;
+    background-position: 50% 0%;
+    background-size: 100%;
+}
+.busimg {
+    position: absolute;
+    background: url(images/highQuality/Bus.png) no-repeat center;
+    height: 40vh;
+    width: 100%;
+    box-shadow: inset 0 -160px 55px -30px #0e0f11;
+    top: 0;
+    left: 0;
+    background-position: 50% 0%;
+    background-size: 100%;
 }
 .delimg {
     position: absolute;
@@ -17,6 +100,8 @@
     background-position: 50% 0%;
     background-size: 100%;
 }
+
+
 .filler {
     height: 40vh;
     width: 100%;
