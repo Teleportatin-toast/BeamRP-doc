@@ -6,12 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex, noarchive">
     <meta name="format-detection" content="telephone=no">
+    <script src="javascript.js"></script>
     <link rel="preconnect" href="https://rsms.me/">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="jobstyle.css">
 </head>
 <body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-left">
+        <a class="logo" href="index" onclick="checkLink(this); return false;">Beam<span style="color: #4800ac">RP</span></a>
+        </div>
+        <div class="nav-center">
+            <a href="delivery" onclick="checkLink(this); return false;">Delivery</a>
+            <a href="taxi" onclick="checkLink('taxi')">Taxi</a>
+            <a href="bus" onclick="checkLink('bus')">Bus</a>
+            <a href="business" onclick="checkLink(this); return false;">Business</a>
+            <a href="emergency" onclick="checkLink(this); return false;">Emergency Services</a>
+            <a href="crime" onclick="checkLink(this); return false;">Criminal</a>
+        </div>
+        <div class="nav-right">
+
+        </div>
+    </nav>
+
     <div class="taximg">
         <h1 class="jobtitle">Taxi driver</h1>
     </div>

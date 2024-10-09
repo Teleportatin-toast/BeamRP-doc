@@ -25,7 +25,7 @@
 body {
     background-color: #0e0f11;
     color: #fafafa;
-    padding: 10px 5%;
+    padding: 2% 5%;
 }
 h1 {
     font-size: 50pt;
@@ -46,6 +46,69 @@ hr {
     border: none;
     border-top: 1px solid #4d4d4d;
 }
+    /* Navbar styling */
+.navbar {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #33333365;
+    backdrop-filter: blur(30px);
+    padding: 10px 20px;
+    /* transform: translateY(-150%); */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    transition: all 0.3s ease;
+}
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right:20px;
+}
+.navbar .nav-left {
+    display: flex;
+    justify-content: left;
+    flex: 1;
+}
+.navbar .nav-left a {
+    color: white;
+    text-decoration: none;
+    margin-left: auto;
+}
+.navbar .nav-center {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    text-wrap: nowrap;
+}
+.navbar .nav-center a {
+    color: white;
+    padding: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.navbar .nav-center a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+.navbar .nav-right {
+    display: flex;
+    justify-content: right;
+    flex: 1;
+}
+.navbar .nav-right a {
+    color: white;
+    padding: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.navbar .nav-right a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+    /* Title styling */
 .titlediv {
     display: flex;
     justify-content: center;
@@ -66,6 +129,7 @@ hr {
     color: #4d4d4d;
     margin-top: -0.2rem;
 }
+    /* Table of Contents styling */
 .toc li > a{
     text-decoration: none;
     color: #852ffd;
@@ -73,6 +137,7 @@ hr {
 .toc li > a:hover {
     color: #d977ff;
 }
+    /* Content and Area styling */
 .content {
     padding: var(--spacing);
     margin: var(--spacing);
@@ -124,6 +189,7 @@ hr {
     line-height: 1.5;
     border-radius: 0.3rem
 }
+    /* Job Selection styling */
 .jobselection {
     display: flex;
     flex-wrap: wrap;
