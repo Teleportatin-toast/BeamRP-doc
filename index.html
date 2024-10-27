@@ -11,7 +11,12 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <div class="se-pre-con"></div>
+    <link rel="prefetch" href="images/highQuality/Truckbridge.png" />
+    <link rel="prefetch" href="images/highQuality/Taxi.png" />
+    <link rel="prefetch" href="images/highQuality/Bus.png" />
+    <link rel="prefetch" href="images/highQuality/Boxtruck.png" />
+    <link rel="prefetch" href="images/highQuality/Emergency.png" />
+    <link rel="prefetch" href="images/highQuality/Crime.png" />
 
     <nav class="navbar">
         <div class="nav-left">
@@ -164,12 +169,12 @@
 
     <p>Making money is a vital part of BeamRP, and you are able to choose from a large array of ways to do so.</p>
     <p>When you start, you must choose between being a <a href="#" onclick="checkLink('delivery')" style="color:#eed69d">delivery driver</a>, <a href="#" onclick="checkLink('emergency')" style="color:#95b0da">working in emergency services</a>, or as <a href="#" onclick="checkLink('crime')" style="color:#b83e3e">a criminal</a></a></p>
-    <div class="jobselection" id="drag">
+    <div class="jobselection" id="drag" rel=prefetch>
         <a class="jobbox" href="#" onclick="checkLink('delivery')">
             <h1>Delivery</h1>
             <img src="images/lowQuality/Truckbridge.webp">
         </a>
-        <a class="jobbox" href="#" onclick="checkLink('taxi')">
+        <a class="jobbox" href="#" onclick="checkLink('taxi')" rel=prefetch>
             <h1>Taxi Driver</h1>
             <img src="images/lowQuality/Taxi.webp">
         </a>
@@ -179,7 +184,7 @@
         </a>
         <a class="jobbox" href="#" onclick="checkLink('business')">
             <h1>Business</h1>
-            <img src="images/lowQuality/Truckbridge.webp">
+            <img src="images/lowQuality/Boxtruck.webp">
         </a>
         <a class="jobbox" href="#" onclick="checkLink('emergency')">
             <h1>Emergency Services</h1>
