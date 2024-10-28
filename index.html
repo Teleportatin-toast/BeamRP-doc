@@ -5,35 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
-    <script src="javascript.js"></script>
-    <link rel="preconnect" href="https://rsms.me/">
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <script defer src="javascript.js"></script>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preload" href="font-files/InterVariable.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="font-files/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="font-files/Inter-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="font-files/Inter-SemiBold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="font-files/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="font-files/Inter-Italic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+    <style>
+        @font-face {
+            font-family: InterVariable;
+            font-style: normal;
+            font-weight: 100 900;
+            font-display: swap;
+            src: url('font-files/InterVariable.woff2') format('woff2');
+        }
+          @font-face {
+            font-family:Inter;
+            font-style:normal; 
+            font-weight:400;
+            font-display:swap;
+            src:url("font-files/Inter-Regular.woff2") format("woff2"); 
+        }
+        @font-face {
+            font-family:Inter;
+            font-style:normal;
+            font-weight:500;
+            font-display:swap;
+            src:url("font-files/Inter-Medium.woff2") format("woff2");
+        }
+        @font-face {
+            font-family:Inter; 
+            font-style:normal; 
+            font-weight:600; 
+            font-display:swap; 
+            src:url("font-files/Inter-SemiBold.woff2") format("woff2");
+        }
+        @font-face {
+            font-family:Inter;
+            font-style:normal;
+            font-weight:700;
+            font-display:swap;
+            src:url("font-files/Inter-Bold.woff2") format("woff2");
+        }
+        @font-face { 
+            font-family:Inter;
+            font-style:italic;
+            font-weight:400;
+            font-display:swap;
+            src:url("font-files/Inter-Italic.woff2") format("woff2");
+        }
+        :root {
+            font-family: InterVariable, Inter, sans-serif;
+            --spacing: 1rem;
+        }
+    </style>
 </head>
 <body>
-    <link rel="prefetch" href="images/highQuality/Truckbridge.png" />
-    <link rel="prefetch" href="images/highQuality/Taxi.png" />
-    <link rel="prefetch" href="images/highQuality/Bus.png" />
-    <link rel="prefetch" href="images/highQuality/Boxtruck.png" />
-    <link rel="prefetch" href="images/highQuality/Emergency.png" />
-    <link rel="prefetch" href="images/highQuality/Crime.png" />
-
-    <nav class="navbar">
-        <div class="nav-left">
-        <a class="logo" href="#" onclick="checkLink('index')">Beam<span style="color: #4800ac">RP</span></a>
-        </div>
-        <div class="nav-center">
-            <a href="#" onclick="checkLink('delivery')">Delivery Driver</a>
-            <a href="#" onclick="checkLink('taxi')">Taxi</a>
-            <a href="#" onclick="checkLink('bus')">Bus</a>
-            <a href="#" onclick="checkLink('business')">Business</a>
-            <a href="#" onclick="checkLink('emergency')">Emergency Services</a>
-            <a href="#" onclick="checkLink('crime')">Criminal</a>
-        </div>
-        <div class="nav-right">
-
-        </div>
-    </nav>
 
     <div class="titlediv">
         <h1 class="title">BeamRP Guide <span class="subtext">"Just read the docs"</span>
@@ -172,27 +202,27 @@
     <div class="jobselection" id="drag" rel=prefetch>
         <a class="jobbox" href="#" onclick="checkLink('delivery')">
             <h1>Delivery</h1>
-            <img src="images/lowQuality/Truckbridge.webp">
+            <img loading="lazy" src="images/lowQuality/Truckbridge.webp">
         </a>
         <a class="jobbox" href="#" onclick="checkLink('taxi')" rel=prefetch>
             <h1>Taxi Driver</h1>
-            <img src="images/lowQuality/Taxi.webp">
+            <img loading="lazy" src="images/lowQuality/Taxi.webp">
         </a>
         <a class="jobbox" href="#" onclick="checkLink('bus')">
             <h1>Bus Driver</h1>
-            <img src="images/lowQuality/Bus.webp">
+            <img loading="lazy" src="images/lowQuality/Bus.webp">
         </a>
         <a class="jobbox" href="#" onclick="checkLink('business')">
             <h1>Business</h1>
-            <img src="images/lowQuality/Boxtruck.webp">
+            <img loading="lazy" src="images/lowQuality/Boxtruck.webp">
         </a>
         <a class="jobbox" href="#" onclick="checkLink('emergency')">
             <h1>Emergency Services</h1>
-            <img src="images/lowQuality/Emergency.webp">
+            <img loading="lazy" src="images/lowQuality/Emergency.webp">
         </a>
         <a class="jobbox" href="#" onclick="checkLink('crime')">
             <h1>Criminal</h1>
-            <img src="images/lowQuality/Crime.webp">
+            <img loading="lazy" src="images/lowQuality/Crime.webp">
         </a>
     </div>
 </body>
