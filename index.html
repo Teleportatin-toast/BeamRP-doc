@@ -112,39 +112,34 @@
 
             <p>BeamRP uses a Discord bot for commands, the following are the commands you can use in <a href="https://discord.com/channels/1263192555252613200/1268633739995381790">#bot-commands</a></p><br>
 
-        <span style="color:#852ffd; font-size:20pt; margin-left: 20px">/initialize</span><br>
-            <p>Used for creating a new character</p>
+        <span style="color:#852ffd; font-size:20pt; margin-left: 20px">/character initalize</span><br>
+            <p>Initalizes you into the system, use it when you first make a character</p>
+        <h3>Arguments:</h3>
+            <code>user</code>: Your BeamMP username
+        <h3>Examples:</h3>
+            <div class="content">
+                <div class="code">
+                    <code>/character initialize itsaname</code>
+                    <hr>
+                    Allows you to be a character in the system
+                </div>
+            </div><br>
+              
+    <span style="color:#852ffd; font-size:20pt; margin-left: 20px">/bank info</span><br>
+            <p>Displays your current balance</p>
         <h3>Arguments:</h3>
             None
         <h3>Examples:</h3>
             <div class="content">
                 <div class="code">
-                    <code>/initialize</code>
-                    <hr>
-                    Removes all your money and resets your drivers license
-                </div>
-            </div><br>
-              
-    <span style="color:#852ffd; font-size:20pt; margin-left: 20px">/status</span><br>
-            <p>Displays your character’s stats, such as money and whether you have a driver's license</p>
-        <h3>Arguments:</h3>
-            <code>User</code>: See the status of another user's character
-        <h3>Examples:</h3>
-            <div class="content">
-                <div class="code">
                     <code>/status</code>
                     <hr>
-                    Returns your balance, whether you have a license, and if you are blacklisted
+                    Returns your balance
                 </div><br>
-                <div class="code">
-                    <code>/status @itsaname</code>
-                    <hr>
-                    Returns the balance, license status, and blacklist status, of @itsaname
-                </div>
             </div><br>
 
-    <span style="color:#852ffd; font-size:20pt; margin-left: 20px">/delmoney</span><br>
-            <p>Removes money from your character, used for purchases</p>
+    <span style="color:#852ffd; font-size:20pt; margin-left: 20px">/bank transfer</span><br>
+            <p>Sends money to another player</p>
         <h3>Arguments:</h3>
             <code>Amount</code>: The amount of money to remove<br><br>
             <code>Reason</code>: The reason to remove money<br>
@@ -167,8 +162,8 @@
                 </div>
             </div><br>
 
-    <span style="color:#852ffd; font-size:20pt; margin-left: 20px">/addmoney</span><br>
-            <p>Gives your character money</p>
+    <span style="color:#852ffd; font-size:20pt; margin-left: 20px">//bank transactions</span><br>
+            <p>Gives a history of previous transactions</p>
         <h3>Arguments:</h3>
             <code>Amount</code>: The amount of money to add<br><br>
             <code>Reason</code>: The reason to add money<br>
